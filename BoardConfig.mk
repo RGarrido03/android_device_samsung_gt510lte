@@ -9,6 +9,9 @@ include device/samsung/gt510lte/board/*.mk
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := gt510lte,gt510ltexx,SM-T555
 
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_gt510lte_eur_defconfig
 
