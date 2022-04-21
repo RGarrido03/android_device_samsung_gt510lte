@@ -58,3 +58,7 @@ PRODUCT_COPY_FILES += \
 
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/gt510lte/overlay
+
+# Display
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.0-service.samsung-qcom
