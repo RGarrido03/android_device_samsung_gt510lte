@@ -28,7 +28,10 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@7.0-impl
 
 PRODUCT_PACKAGES += \
-   android.hardware.bluetooth.audio@2.0-impl \
+    android.hardware.bluetooth.audio@2.0-impl \
+    android.hardware.audio.service.msm8916 \
+    android.hardware.bluetooth.audio@2.0-impl \
+    audio.bluetooth.default
 
 PRODUCT_PACKAGES += \
     libldacBT_bco
