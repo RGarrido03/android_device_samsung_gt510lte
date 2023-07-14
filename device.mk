@@ -28,7 +28,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@7.0-impl
 
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth.audio@2.0-impl \
     android.hardware.audio.service.msm8916 \
     android.hardware.bluetooth.audio@2.0-impl \
     audio.bluetooth.default
@@ -60,7 +59,3 @@ PRODUCT_COPY_FILES += \
 
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/gt510lte/overlay
-
-# Display
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service.samsung-qcom
