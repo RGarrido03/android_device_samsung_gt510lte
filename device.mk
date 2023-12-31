@@ -32,9 +32,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.0-impl \
     audio.bluetooth.default
 
-PRODUCT_PACKAGES += \
-    libldacBT_bco
-
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl \
