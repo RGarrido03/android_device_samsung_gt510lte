@@ -1,7 +1,7 @@
 # Inherit from common
 include device/samsung/gte-common/BoardConfigCommon.mk
 
-LOCAL_PATH := device/samsung/gt510lte
+DEVICE_PATH := device/samsung/gt510lte
 
 # Include board config fragments
 include device/samsung/gt510lte/board/*.mk
